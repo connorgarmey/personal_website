@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Connor Garmey</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">
+        Connor Garmey
+    </div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li>  <a href="#projects">Projects</a></li>
+            <li>   <a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">
+        Connor Garmey
+    </div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li>  <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li>   <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="./garm/profile_b&w.jpeg" alt="Profile Picture Here"/>
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1"> Hello, I'm</p>
+        <h1 class="title">Connor</h1>
+        <p class="section__text__p2">Analytically Oriented</p>
+        <p class="section__text__p2">With a Deep Interest in Global Financial Markets</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./garm/resume.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+        </div>
+        <div id="socials-container">
+            <img src="./garm/linked-in.png" alt="My LinkedIn Page" class="icon" onclick="location.href='https://www.linkedin.com/in/connor-garmey-7a2b00168/?jobid=1234'"/>
+            <img src="./garm/github.png" alt="My Github Page" class="icon" onclick="location.href='https://github.com/connorgarmey'"/>
+        </div>
+    </div>
+    <img src="./garm/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#about'"/>
+</section>
+<section id="about">
+    <p class="section__text__p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./garm/ski_pic.jpeg" alt="Profile Picture" class="about-pic"/>
+
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./garm/experience-2.png" alt="Experience" class="icon"/>
+                    <h3> Experience</h3>
+                    <p>6 Months Industry Experience<br /> Highly Active Top Student</p>
+                </div>
+                <div class="details-container">
+                    <img src="./garm/education.png" alt="Education" class="icon"/>
+                    <h3> Education</h3>
+                    <p>Northeastern University<br />Combined Major in Fintech and Data Science</p>
+                </div>
+            </div>
+            <div class="text-container"><p>Welcome to my online portfolio! I'm Connor Garmey, currently in my fourth year at Northeastern University. My academic journey has led me to a unique combination of majors: Business and Data Science with a focus on Financial Technology. I'm passionate about both fields and have worked hard to develop strong technical skills, particularly in machine learning and data analysis.
+
+                I find the fusion of finance and data science fascinating, and my goal is to bridge the gap between these two disciplines. </p><br>
+                <p>Through my coursework and hands-on experience, I've gained a deep understanding of how data can drive informed financial decisions.
+
+                    But my interests don't stop in the classroom. I helped create and run the Chinese Markets Club, where I engage in discussions and contribute to initiatives related to global financial markets. This real-world involvement has allowed me to apply my knowledge and gain valuable insights into the intricacies of global markets.
+                </p><br>
+                <p>I invite you to explore this website to learn more about my academic journey, technical expertise, and my perspective on the exciting world of finance and data science.</p>
+            </div>
+        </div>
+    </div>
+    <img src="./garm/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+</section>
+<section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Technical Skills</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                        <div>
+                            <h3>Java</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                        <div>
+                            <h3>UI Development</h3>
+                            <p>Learning</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Industry Skills</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                    <div>
+                        <h3>Accounting</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                    <div>
+                        <h3>Microsoft Office Suite</h3>
+                        <p>Experienced</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                    <div>
+                        <h3>Global Market Understanding</h3>
+                        <p>Learning</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./garm/checkmark.png" alt="Checkmark" class="icon"/>
+                    <div>
+                        <h3>Presentation Skills</h3>
+                        <p>Expert</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./garm/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+</section>
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./garm/project-1.jpg" alt="project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Networked BattleShip Game</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/connorgarmey/network_battleship'">
+                    GitHub
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="./garm/project-2.png" alt="project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Studying Application</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/connorgarmey/study_tool'">
+                    GitHub
+                </button>
+            </div>
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="garm/calendar.png" alt="project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Bullet Journal</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/connorgarmey/bullet_journal'">
+                    GitHub
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="./garm/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="./garm/email.png" alt="Email Icon" class="icon contact-icon">
+            <p><a href="mailto:garmey.c@northeastern.edu">garmey.c@northeastern.edu</a></p>
+        </div>
+
+
+        <div class="contact-info-container">
+            <img src="./garm/linked-in.png" alt="LinkedIn Icon" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/connor-garmey-7a2b00168/?jobid=1234">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li> <a href="#experience">Experience</a></li>
+                <li>  <a href="#projects">Projects</a></li>
+                <li>   <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>
+        Copyright &#169; Connor Garmey. All Rights Reserved.
+    </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
